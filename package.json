@@ -1,0 +1,20 @@
+{
+  "name": "assignment_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --noStackTrace --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      "<rootDir>/reporter.js"
+    ]
+  }
+}
